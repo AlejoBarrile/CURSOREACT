@@ -5,13 +5,6 @@
 }
 
 
-.barra__nav{
-  background-color: grey;
-  display: flex;
-  align-items: center;
-  gap: 300px;
-
-}
 
 a{
   list-style-type: none;
@@ -21,59 +14,98 @@ a{
   font-size: 35px;
 }
 
-.lista{
-   
-  text-decoration: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  list-style-type: none;
 
-}
-ul li{
-  margin: 20px;
-  
-}
-ul li :hover{
-  color: rgb(41, 177, 177);
-  
-  
-}
 .carrito{
   position: relative;
-  top: 0px;
-  left: 100px;
+  margin-left: 30px;
   width: 50px;
   height: 50px;
 }
 .cantidad__carrito{
-  background-color: rgb(41, 177, 177);
-  border-radius: 30px;
-  position: absolute;
-  top: 10px;
-  left: 1250px;
+  background-color: rgb(39, 124, 124); ; 
+  border-radius: 20px;
+  position: relative;
+
   font-size: 30px;
   color: black;
-  padding: 4px;
+  padding: 10px;
   
-}
-
-.beta{
-  color:black;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
-    margin-top: 15px;
 }
 
 .item__list{
   padding-top: 50px;
   background-color: grey;
   text-align: center;
-  padding-bottom: 1000px;
+  padding-bottom: 100px; 
 }
 .productos__titulo{
-  color:rgb(41, 177, 177); 
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:rgb(0, 0, 0);
+  text-decoration:underline ;
+  text-decoration-color: rgb(39, 124, 124); ; 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 60px;
+}
+.foto__producto{
+  width: 286px;
+  height: 320px;
+}
+.links{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+  margin: 10px;
+  
+
+
+}
+.links:hover{
+  color:rgb(39, 124, 124); ; 
+}
+.descripcion{
+ font-size: 18px;
+ text-align: center;
+}
+
+
+.fondo{
+  background-image: url("https://d3ugyf2ht6aenh.cloudfront.net/stores/001/490/877/themes/rio/1-slide-1686702591503-8238041284-9d670a70671cb28a2a34addd85f239b71686702596-1920-1920.jpg?166802317");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 150px ;
+
+}
+.texto{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 180px;
+}
+
+
+.carrusel{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 200px;
+  padding: 100px;
+}
+.foto{
+  width: 500px;
+  height: 500px;
+}
+
+.fondo__inicio{
+  background-image: url("https://i.pinimg.com/564x/2f/d4/f2/2fd4f2ec7b22a5cf63e631deea74d923.jpg");
+  background-size: contain;
+}
+
+.footer{
+  display: flex;
+  background-color: grey;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+
 }
