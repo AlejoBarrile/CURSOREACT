@@ -109,3 +109,56 @@ a{
   font-size: 12px;
 
 }
+
+.loading{
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:rgb(39, 124, 124); 
+  padding-top: 30px;
+}
+h1{
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-top: 80px;
+  color:black;
+  
+
+}
+.filtrado{
+  font-size: 20px;
+  text-align: center;
+  padding-left: 30px;
+  
+}
+
+.carta__detalle{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+
+  
+}
+
+.cantidad__producto{
+  display: inline-block;
+  background-color: rgb(39, 124, 124); ; 
+  border-radius: 90px;
+  position: relative;
+
+  font-size: 15px;
+  color: black;
+  padding: 10px;
+  
+}
+
+.ver__mas{
+  background-color: rgb(39, 124, 124); ;
+
+  padding: 10px;
+  
+  font-size: 20px;
+  border-radius: 30px;
+
+}
