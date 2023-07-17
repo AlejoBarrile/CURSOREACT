@@ -36,7 +36,7 @@ const ItemListContainer = () =>{
 
 
     return (
-        <div className='fondo__inicio'>
+        
             <div className="item__list">
                 
                     <ItemList items={productos}/>
@@ -48,7 +48,7 @@ const ItemListContainer = () =>{
                     
 
             </div>
-        </div>
+        
 
 
 

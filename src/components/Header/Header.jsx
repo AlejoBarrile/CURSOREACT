@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
-
+import CartWidget from '../CartWidget/CartWidget'
 
 
 const Header= () => {
@@ -24,8 +24,7 @@ const Header= () => {
             <Link className='links' to="/">Inicio</Link>
             <Link className='links' to="/productos/">Productos</Link>
             <Link className='links' to="/nosotros">Nosotros</Link>
-            <Link><img className="carrito" src="../src/assets/carrito.png" alt="CARRITO" /></Link>
-            <span className="cantidad__carrito">0</span>
+              <CartWidget></CartWidget>
           </Nav>
       </Navbar>
     </Container>

@@ -1,0 +1,10 @@
+El proyecto que presento es una idea básica pero concisa de como formaría un e-commerce para una marca de ropa que base su estilo en la tendencia y el mainstream.
+Si bien no profundicé en animaciones y diseños, respeté una idea estética y seguí una paleta de colores.
+Desde el Inicio mostré "Tendencias Session 23", con algunas fotos de ropa de moda que la marca vende. Agregaría también si existiera, datos de contacto, nuevos releases, información de la marca, últimas participaciones, productos más vendidos.
+En la sección Nosotros, muestro un cambio de fondo con un modelo desfilando la ropa, y una breve explicación de la misión y visión del proyecto.
+En la seccion Productos podemos ver el catálogo total ordenado por tipo de prenda y con la opción de filtrado.
+Si clickeamos en Ver Más, nos llevará al producto en detalle, donde de tener la posibilidad agregaría más fotos distintas del artículo. Acá podemos elegir el talle disponible, la cantidad que queremos, y añadirlo al carrito. También podremos pasar a Terminar la Compra, o borrar el artículo si es indeseado.
+Clickear en Terminar la Compra, o clickear el widget del Cart que está en la esquina superior, nos llevara al Carrito. Acá veremos todos los productos que fuimos añadiendo, con sus respectivos talles y cantidades. También veremos el precio total y la cantidad total.
+Ir a Pagar (no finalizado) nos mostrará un formulario donde llenaremos nuestros datos y elegiremos método de pago para terminar de adquirir los productos. Recibiremos al e-mail ingresado el ticket de compra y la información de envío.
+Trabajaría mejor la estética y buscaría mejorar mis habilidades de front-end y diseño, pero sin duda la funcionalidad la mantendría de esa manera, básica, sencilla y muy funcional. Que el usuario encuentre lo que desea de manera ágil, y logre sus objetivos satisfactoriamente, así como también su navegación por la app sea de agrado y  capte su atención. 
+Bless Dress, the next level.
