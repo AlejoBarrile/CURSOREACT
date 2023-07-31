@@ -2,6 +2,7 @@ import { useContext } from "react"
 import { CartContext } from "../CartContext/CartContext"
 import { ItemCardInCart } from "../ItemCardInCart/ItemCardInCart"
 import { Button } from "bootstrap"
+import { Link, Navigate } from "react-router-dom"
 
 export const Cart = () =>{
 
@@ -22,6 +23,8 @@ export const Cart = () =>{
                         <h3>Tu compra consta de los siguientes artículos:</h3>
                         <hr />
                         <button className="btn btn-danger" onClick={vaciarCarrito}>Vaciar carrito</button>
+                        <Link className="btn btn-success m-2" to="/pay">Ir a pagar</Link>
+
 
                     </div>
                     }

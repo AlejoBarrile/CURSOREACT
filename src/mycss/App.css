@@ -167,3 +167,7 @@ h1{
   border-radius: 30px;
 
 }
+.formulario{
+  display: flex;
+  justify-content: center;
+}

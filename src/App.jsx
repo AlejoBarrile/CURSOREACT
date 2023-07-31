@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import React, { useState } from "react"
 
 import Header from "./components/Header/Header"
-import "./css/App.css"
+import "./mycss/App.css"
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom"
 import Nosotros from "./components/Nosotros/Nosotros";
@@ -11,6 +11,7 @@ import Footer from './components/Footer/Footer';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import { CartProvider } from './components/CartContext/CartContext';
 import { Cart } from './components/Cart/Cart';
+import { Pay } from './Pay/Pay';
 
 
 
@@ -35,6 +36,7 @@ function App() {
               <Route path='/productos/:categoryID' element={<ItemListContainer/>} />
               <Route path='/item/:itemID' element={<ItemDetailContainer/>}/>
               <Route path='*' element={<Navigate to={"/"}/>}/>
+              <Route path='/pay' element={<Pay/>}/>
               <Route path='/nosotros' element={<Nosotros/>}/>
               <Route path='/cart' element={<Cart/>}/>   
             </Routes>
